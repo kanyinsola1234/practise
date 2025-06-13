@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.app{
+    border: 5px solid;
+    min-height: 100vh;
+    background-color: aqua;
+}
+header{
+    border: 2px solid green;
+    min-height: 10vh;
+    background-color: beige;
+}
+.header-section{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    min-height: 10vh;
+    background-color: darkgrey;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+span.logo{
+    font-size: 35px;
+    font-weight: bolder;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+}
+nav ul li{
+    margin-left: 30px;
+    font-size: 20px;
+}
+main{
+    border: 5px solid;
+    min-height: 80vh;
+    background-color: cornsilk;
+}
+footer{
+    border: 2px solid;
+    min-height: 10vh;
+    background-color: beige;
+}
